@@ -6,7 +6,7 @@ RSS/ATOM/Feed aggregator interface.
 Features
 --------
 
-+ The ability to create a new XyleFeedReader object, give it the URL and it should autodetect its API based on the mime type, if the mime type fails
++ The ability to create a new XyleFeedReader object, give it the URL and it should autodetect the intreface based on the mime type, if the mime type fails
 then will check the XML document for further ideas.
 + The ability to request a feed, which loads into a collection of entries, which can also request the entries article URL, download and store
 it in the entry.
